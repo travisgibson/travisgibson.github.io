@@ -1,0 +1,257 @@
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee 
+% that it will correctly compile on your system if you have a non-standard  
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, letterpaper]{article}
+\usepackage{fontspec} 
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=5.5in, textheight=10in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{verbatim}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}
+\setmonofont[Scale=0.8]{Monaco}
+
+% ---- CUSTOM COMMANDS
+\chardef\&="E050
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\amper{}}{\chardef\amper="E0BD }
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\mdseries\upshape\Large}
+\subsectionfont{\mdseries\scshape\normalsize} 
+\subsubsectionfont{\mdseries\upshape\large} 
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[bookmarks, colorlinks, breaklinks, 
+% ---- FILL IN HERE THE TITLE AND AUTHOR
+	pdftitle={Travie E. Gibson - Compact Vita},
+	pdfauthor={Travis E. Gibson},
+]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
+
+% DOCUMENT
+\begin{document}\pagestyle{empty}
+{\LARGE Travis E. Gibson}\\[0.2cm]
+\noindent
+\begin{minipage}[t]{.45\textwidth}
+\raggedright
+Department of Pathology\\
+60 Fenwood Road\\
+Harvard Medical School\\
+Boston, MA 02115
+U.S.A.\\[.2cm]\end{minipage}% <-- Don't forget this one
+%
+\hfill
+%
+\begin{minipage}[t]{.48\textwidth}
+\raggedright
+Phone: {\tt blank for web cv}\\
+%Fax: \texttt{609-924-8399}\\[.2cm]
+email: \verb tegibson*bwh_harvard_edu \ \verb (*=@, \verb _=.)  \\
+\textsc{url}: \url{http://travisgibson.github.io}
+\end{minipage}
+
+%Channing Division of Network Medicine\\
+%181 Longwood Avenue\\
+%Boston, M.A. \texttt{02115}
+%U.S.A.\\[.2cm]
+%Phone: \texttt{904.553.5268}\\
+%Fax: \texttt{609-924-8399}\\[.2cm]
+%email: \href{mailto:tgibson@mit.edu}{tgibson@mit.edu}\\
+%\textsc{url}: \url{http://www.mit.edu/~tgibson}
+%\vfill
+% Born:  March 12, 1879---Ulm, Germany\\
+%Nationality:  German/American
+
+%%\hrule
+%\section*{Current position}
+%\emph{Emeritus Professor}, Institute for Advanced Study, Princeton
+
+%%\hrule
+%\section*{Research Interests}
+\vspace{.2in}
+{\bf I study biological systems leveraging tools from (statistical) machine learning and control theory.}
+
+\section*{Education}
+\years{2014}(\textsc{PhD}) {\bf Massachusetts Institute of Technology}, Mechanical Engineering, minor Mathematics \\
+ \ \ Thesis: Closed-loop Reference Model Adaptive Control: with Application to Very Flexible Aircraft \\
+Advisor: Anuradha Annaswamy \\[0.1cm]
+\years{2008} (\textsc{SM}) {\bf Massachusetts Institute of Technology}, Mechanical Engineering \\
+Thesis: Adaptive Control of Hypersonic Vehicles \\
+Advisor: Anuradha Annaswamy \\[0.1cm]
+\years{2006}(\textsc{BS}) {\bf Georgia Institute of Technology}, Mechanical Engineering
+%%\hrule
+\section*{Appointments held}
+\years{2019-} {\bf Harvard Medical School \& Brigham and Women's Hospital}, Instructor (Faculty) in Pathology\\
+\years{2016-2018} {\bf Harvard Medical School \& Brigham and Women's Hospital}, Research Fellow in Pathology\\
+\years{2014-2016} {\bf Harvard Medical School \& Brigham and Women's Hospital}, Research Fellow in Medicine\\
+\years{2007-2013} {\bf Active Adaptive Control Lab, MIT}, Research Assistant\\
+\years{2010, summer} {\bf Boeing}, Research Engineer\\
+\years{2009, spring} {\bf Tecnische Universit\"at M\"unchen}, Visiting Scholar\\
+\years{2008-2009,\\[-2pt] summers} {\bf NASA}, Research Summer Scholar\\
+\years{2005-2006} {\bf Georgia Tech}, Undergraduate Research Assistant\\
+\years{2004-2006\\[-2pt] summers} {\bf Vistakon}, Engineering Intern
+%\years{2005, summer} {\bf Vistakon}, Research Engineer\\
+%\years{2004, summer} {\bf Vistakon}, Research Engineer\\
+%\hrule
+%\hrule
+%\section*{Grants, honors \& awards}
+%\noindent
+%\years{1921}Nobel Prize in Physics, Nobel Foundation
+
+
+\section*{Teaching}
+\years{2013 Spring} Adaptive Control, MIT Course 2.s997 (1/2 Lecturer)
+
+
+\section*{Publications \& Talks}
+
+
+\subsection*{In Revision or Submitted}
+%\years{in preparation} T.E. Gibson, et al (in preparation for Science)  ``On the Stability Landscape of the Gut Microbiome''\\[0.1cm]
+%\years{in preparation} T.E. Gibson (in preparation) ``Adaptation and Synchronization: Fundamental Trade Offs when Learning''\\[0.1cm]
+%\years{in preparation} Hong-Tai Cao, T.E. Gibson, et al (shortened conference version already accepted to CDC) “Impacts of Network Topology on the Performance of a Distributed Algorithm Solving Linear Equations", arXiv:1603.04154 \\[0.1cm]
+%\years{in preparation} Hong-Tai Cao, T.E. Gibson, et al (in preparation, target journal is Nature Microbiology) “Pitfalls in Microbiome Network Reconstruction"  \\[0.1cm]
+\years{accepted} B.B. Hsu, T.E. Gibson, V. Yeliseyev, Q. Liu, L. Bry, P.A. Silver, G.K. Gerber, ``Bacteriophages dynamically modulate the gut microbiota and metabolome'' bioRxiv 454579\\[0.1cm]
+\years{submitted\\NeurIPS} J.E. Gaudio, T.E. Gibson, A.M. Annaswamy, and M.A. Bolender  ``Provably Correct Learning Algorithms in the Presence of Time-Varying Features Using a Variational Perspective'' arXiv 1903.04666 \\[0.1cm]
+\years{submitted} M.Ziesack, T.E. Gibson, … G.K. Gerber  ``Inducible Cooperation in a Synthetic Gut Bacterial Consortium Introduces Population Balance and Stability'' bioRxiv 426171\\[0.1cm]
+\years{submitted\\CDC} J.E. Gaudio, T.E. Gibson, A.M. Annaswamy, M.A. Bolender, and E.Lavretsky r ``Connections Between Adaptive Control and Optimization in Machine Learning '', arXiv 1904.05856\\[0.1cm]
+\years{under\\revision} T.E. Gibson et al. ``On the Stability Landscape of the Human Gut Microbiome: Implications for Microbiome-based Therapies'', bioRxiv 176941
+
+\subsection*{Journal Articles}
+%\years{in preparation} T.E. Gibson, et al (in preparation for Science)  ``On the Stability Landscape of the Gut Microbiome''\\[0.1cm]
+%\years{in preparation} T.E. Gibson (in preparation) ``Adaptation and Synchronization: Fundamental Trade Offs when Learning''\\[0.1cm]
+%\years{in preparation} Hong-Tai Cao, T.E. Gibson, et al (shortened conference version already accepted to CDC) “Impacts of Network Topology on the Performance of a Distributed Algorithm Solving Linear Equations", arXiv:1603.04154 \\[0.1cm]
+%\years{in preparation} Hong-Tai Cao, T.E. Gibson, et al (in preparation, target journal is Nature Microbiology) “Pitfalls in Microbiome Network Reconstruction"  \\[0.1cm]
+\years{2018} B.M. Jenkins, A.M. Annaswamy, E. Lavretsky, T.E. Gibson (2018)  ``Convergence Properties of Adaptive Systems and the Definition of Exponential Stability'' { \em SIAM Journal on Control and Optimization}, arXiv:1511:03222\\[0.1cm]
+\years{2017} Hong-Tai Cao, T.E. Gibson, et al (2017) ``Inferring human microbial dynamics from temporal metagenomics data: Pitfalls and lessons'', {\em BioEssays},  39 (2),  bioRxiv:073254\\[0.1cm]
+%\years{provisional acc.}  T.E. Gibson, et al.  (provisionally accepted), ``The Helios Crash Revisited'',  { \em AIAA Journal}\\[0.1cm]
+\years{2016} A. Bashan, T.E. Gibson, et al. (2016) ``Universality of Human Microbial Dynamics'',  { \em Nature} 534.7606: 259-262. \\[0.1cm]
+\years{2016} V. Arunachalam, T.E. Gibson, et al. (2016) ``Controllability analysis of the directed protein-protein interaction network identifies human disease genes'',  {\em Proceedings of the National Academy of Sciences}  113 (18) 4976-4981 \\[0.1cm]
+\years{2016} T.E. Gibson, et al. ``On the Origins and Control of Community Types in the Human Microbiome'' (2016) { \em PLOS Computational Biology}, arXiv:1506.05171\\[0.1cm]
+\years{2016} M.J. McGeachie,  J.E. Sordillo, T.E. Gibson, et al. (2016) ``Longitudinal Prediction of the Infant Gut Microbiome with Dynamic Bayesian Networks'' {\em Scientific Reports} 6 . \\[0.1cm]
+\years{2015} T.E. Gibson, Z. Qu, A.M. Annaswamy, E. Lavretsky, (2015), ``Adaptive Output Feedback based on Closed-loop Reference Models'' 
+{ \em IEEE Transactions on Automatic Control},  arXiv:1410.1944 \\[0.1cm]
+\years{2013} T.E. Gibson, A.M. Annaswamy E. Lavretsky, (2013) ``On Adaptive Control with Closed-loop Reference Models:
+Transients, Oscillations and Peaking,'' { \em IEEE Access}, arXiv:1304.7278 \\[0.1cm]
+\years{2012} A.M. Annaswamy, E. Lavretsky, Z.T. Dydek, T.E. Gibson and M. Matsutani, ( 2012) ``Recent Results in Robust
+Adaptive Flight Control'', { \em International Journal of Adaptive Control and Signal Processing} \\[0.1cm]
+\years{2009} X. Huang, T.E. Gibson, M. Zhang, and R.W. Neu, (2009) ``Fretting on the Cubic Face of a Single-Crystal Ni-base
+Superalloy at Room Temperature,'' { \em Tribology International} 
+%\years{2014} T.E. Gibson, A.M. Annaswamy E. Lavretsky, Modeling for Control of Very Flexible Aircraft: the Helios Crash Revisited, (provisionally accepted {\bf \em AIAA Journal}) \\[0.1cm]
+
+\subsection*{arXiv only}
+\years{2015}  T.E. Gibson ``Sign Stability via Root-Locus Analysis,'' (arXiv:1512.06026) \\[0.1cm]
+\years{2012}  T.E. Gibson, A.M. Annaswamy, E. Lavretsky, ``Output Feedback Adaptive Control with Closed-Loop
+Reference Models,'' (arXiv:1210.8220) \\[0.1cm]
+\years{2012}  T.E. Gibson, A.M. Annaswamy, E. Lavretsky, ``Closed-loop Reference Model Adaptive Control: Transients
+Performance and Robustness,'' (arXiv:1201.4897) \\[0.1cm]
+\years{2011}  E. Lavretsky, T.E. Gibson,  A.M. Annaswamy ``Projection Operator in Adaptive Systems''  \\ (arXiv:1112.4232)
+%\years{1905b}Einstein, Albert (1905), A new determination of molecular dimensions. \emph{PhD dissertation}.\\
+%\years{1905c}Einstein, Albert (1905), “On the Motion—Required by the Molecular Kinetic Theory of Heat—of Small Particles Suspended in a Stationary Liquid", \emph{Annalen der Physik} 17: 549–560. 
+%\years{1905d}Einstein, Albert (1905), “On the Electrodynamics of Moving Bodies", \emph{Annalen der Physik} 17: 891–921.\\
+%\years{1905e}Einstein, Albert (1905), “Does the Inertia of a Body Depend Upon Its Energy Content?", \emph{Annalen der Physik} 18: 639–641.\\
+%\years{1915}Einstein, Albert (1915), “Die Feldgleichungen der Gravitation (The Field Equations of Gravitation)", \emph{Koniglich Preussische Akademie der Wissenschaften}: 844–847\\
+%\years{1917a}Einstein, Albert (1917), “Kosmologische Betrachtungen zur allgemeinen Relativitätstheorie (Cosmological Considerations in the General Theory of Relativity)", \emph{Koniglich Preussische Akademie der Wissenschaften}\\
+%\years{1917b}Einstein, Albert (1917), “Zur Quantentheorie der Strahlung (On the Quantum Mechanics of Radiation)", \emph{Physikalische Zeitschrift} 18: 121–128
+
+%\subsection*{Books}
+%\noindent
+%\years{1954}Einstein, Albert (1954), \emph{Ideas and Opinions}, New York: Random House, ISBN 0-517-00393-7
+
+\subsection*{Conference Papers}
+\years{2018} T.E. Gibson and G.K. Gerber  (2018) ``Robust and Scalable Models of Microbial Dynamics'', {\em International Conference on Machine Learning}\\[0.1cm]
+\years{2016} Hong-Tai Cao, T.E. Gibson, et al (2016) “Impacts of Network Topology on the Performance of a Distributed Algorithm Solving Linear Equations", {\em  Conference on  Decision and  Control} \\[0.1cm]
+\years{2016} T.E. Gibson (2016), “Adaptation and Synchronization over a Network: Asymptotic Error Convergence and Pinning", {\em Conference on  Decision and  Control} \\[0.1cm]
+\years{2016} T.E. Gibson (2016), “Adaptation and Synchronization over a Network: Stabilization without a Reference Model", {\em Conference on  Decision and  Control} \\[0.1cm]
+\years{2016} T.E. Gibson (2016), “Opportunities for Systems and Control in the Human Microbiome", {\em American Control Conference}\\[0.1cm]
+\years{2015} T.E. Gibson and E. Lavretsky (2015), “Robust and Adaptive Control Technologies for Flight Critical Systems", {\em17th Yale Workshop on Adaptive and Learning Systems}, New Haven Connecticut \\[0.1cm]
+\years{2015} T.E. Gibson and A.M. Annaswamy (2015), “Learning and Consensus in Adaptive and Networked Systems", {\em17th Yale Workshop on Adaptive and Learning Systems}, New Haven Connecticut \\[0.1cm]
+\years{2015} T.E. Gibson and A.M. Annaswamy (2015), “Adaptive Control and the Definition of Exponential Stability", {\em American Control Conference}\\[0.1cm]
+\years{2013} A.M. Annaswamy, T.E. Gibson, H.S. Hussain and E. Lavretsky, (2013) ``Practical Adaptive Control,''{\em16th Yale Workshop on Adaptive and Learning Systems} New Haven Connecticut \\[0.1cm]
+\years{2013} T.E. Gibson, A.M. Annaswamy, and E. Lavretsky (2013), "Closed-Loop Reference Models in Adaptive Control: Composite Control and Observer Feedback," {\em 11th IFAC International Workshop on Adaptation and Learning in Control and Signal Processing} \\[0.1cm]
+\years{2013} B.M. Jenkins, T.E. Gibson, A.M. Annaswamy, and E. Lavretsky (2013) "Uniform Asymptotic Stability and Slow Convergence in Adaptive Systems," {\em 11th IFAC International Workshop on Adaptation and Learning in Control and Signal Processing} \\[0.1cm]
+\years{2013} T.E. Gibson, A.M. Annaswamy, and E. Lavretsky (2013), "Output Feedback Adaptive Control with Closed-Loop Reference Models," {\em European Control Conference}\\[0.1cm]
+\years{2013} T.E. Gibson, A.M. Annaswamy, and E. Lavretsky (2013), "Closed-Loop Reference Models in Adaptive Control, Part 1: Transient Performance," {\em American Control Conference} \\[0.1cm]
+\years{2013} B.M. Jenkins, T.E. Gibson, A.M. Annaswamy, and E. Lavretsky (2013), "Accuracy, Smoothness, and Speed in Adaptive Systems with Closed-loop Reference Models," {\em AIAA Guidance Navigation and Control Conference}\\[0.1cm]
+\years{2012} T.E. Gibson, A.M. Annaswamy, and E. Lavretsky (2012), "Improved Transient Response in Adaptive Control Using Projection Algorithms and Closed Loop Reference Models," {\em AIAA Guidance Navigation and Control Conference}\\[0.1cm]
+\years{2011} M. Matsutani, A.M. Annaswamy, T.E. Gibson, E. Lavretsky (2011), "Trustable Autonamous Systems using Adaptive Control," {\em 50th IEEE Conference on Decision and Control and European Control Conference} \\[0.1cm]
+\years{2011} T.E. Gibson, A.M. Annaswamy, and E. Lavretsky (2011), "Modeling for Control of Very Flexible Aircraft," {\em Guidance Navigation and Control Conference}\\[0.1cm]
+\years{2011} S. Baur, T. Gibson, A. Annaswamy, L. Hoecht, and F. Holzapfel (2011), "Simulation and Adaptive Control of a High Agility Model Airplane in the Presence of Severe Structural Damage and Failures," {\em AIAA Guidance, Navigation and Controls Conference}\\[0.1cm]
+\years{2011} A.M. Annnaswamy, M. Matsutani, T.E. Gibson and E. Lavretsky, (2011) ``Trustable Autonomous Systems Using Adaptive Control,'' {\em 15th Yale Workshop on Adaptive and Learning Systems}\\[0.1cm]
+\years{2011} S. Baur, T. Gibson, A. Annaswamy, L. Hoecht, T. Bierling and F. Holzapfel, (2011) ``Adaptive Control of a High Agility Model Airplane in the Presence of Severe Structural Damage and Failure'' {\em Council of European Aerospace Societies EuroGNC},  Muenchen Germany.\\[0.1cm]
+\years{2010} T.E. Gibson, M. Matsutani, L.G. Crespo and A.M. Annaswamy (2010) ``Internal Algorithm Monitor for Adaptive Systems'' {\em AIAA Infotech Aerospace Conference}\\[0.1cm]
+\years{2009} L.G. Crespo, M. Matsutani, J. Jang, T.E Gibson and A.M. Annaswamy (2009), "Design and Verification of an Adaptive Controller for the Generic Transport Model,"  {\em AIAA Guidance Navigation and Control Conference}\\[0.1cm]
+\years{2009} M. Matsutani, T. E. Gibson, J. Jang, L. G. Crespo, and A.M. Annaswamy (2009) "An Adaptive Control Technology for Safety of a GTM-like Aircraft," {\em American Control Conference} \\[0.1cm]
+\years{2009} T.E. Gibson, L.G. Crespo, and A.M. Annaswamy, (2009) ``Adaptive control of hypersonic vehicles in the presence of modeling uncertainties,'' {\em American Control Conference}\\[0.1cm]
+\years{2008} T.E. Gibson and A.M. Annaswamy, (2008) ``Adaptive control of hypersonic vehicles in the presence of thrust and actuator uncertainties,'' {\em AIAA Guidance Navigation and Control Conference}
+
+\subsection*{Workshop Papers and Abstracts (peer reviewed)}
+%\years{2019}  A. Bashan, T.E. Gibson, et al. (2019) ``The universal dynamics of the human microbiome'' {\em Bulletin of the American Physical Society}
+\years{2018} R. Creswell, M.K. Gibson, T.E. Gibson, J.W. Leff, and G.K. Gerber  (2018) ``A multi-level Bayesian nonparametric model of longitudinal responses of the human microbiota to dietary interventions '', {\em Workshop on Computational Biology at International Conference on Machine Learning} \\[0.1cm]
+\years{2017} T.E. Gibson and G.K. Gerber (2017) “Robust and Scalable Models of Microbiome Dynamics for Bacteriotherapy Design", {\em   NIPS Workshop on Machine Learning in Computational Biology} (oral presentation) 
+
+\subsection*{Invited Talks}
+\years{2019} {\em Learning microbial dynamics for therapeutic applications: Scalable inference, robustness, and control} Bioinformaics Seminar, MIT, Cambridge, MA, 2018 \\[0.1cm]
+\years{2018} {\em Towards rational bacteriotherapy design with machine learning models} Frontiers in Microbiome Interactions, Harvard Digestive Disease Center, Boston, MA, 2018 \\[0.1cm]
+\years{2018} {\em From Airplanes to Microbes: Adaptive Control and Bayesian Inference} Google, Mountain View CA, 2018\\[0.1cm]
+\years{2015} {\em On Synchronization and Learning over Networks}, NetSci Satellite Conference, Controlling Complex Networks: When Control Theory Meets Network Science, Zaragoza Spain, 2015\\[0.1cm]
+\years{2014} {\em Open- and Closed-Loop Reference Models in Adaptive Control}, Emerging Frontiers in Adaptive Systems and Learning, American Control Conference,  June 3, 2014 \\[0.1cm]
+\years{2014} {\em Verification and Validation of Adaptive Systems}, Emerging Frontiers in Adaptive Systems and Learning, American Control Conference,  June 3, 2014 \\[0.1cm]
+\years{2014} {\em Adaptive Control of Networked Control Systems}, Emerging Frontiers in Adaptive Systems and Learning, American Control Conference,  June 3, 2014 \\[0.1cm]
+\years{2013} {\em Transients, Learning, and Stability in Adaptive Systems}, Caltech, Pasadena California, November 25, 2013  \\[0.1cm]
+\years{2009} {\em Adaptive Control of Elastic Hypersonic Vehicles}, Institute of Automatic Control Engineering (LSR) Technische Universität Muenchen, Muenchen Germany, May 8, 2009\\[0.1cm]
+\years{2009} {\em Internal Algorithm Monitors for Adaptive Systems}, Aviation Safety Annual Review, Washington DC, November 18, 2009
+
+
+%\section*{Teaching}
+
+%...
+
+%\hrule
+%\section*{Service to the profession}
+
+%...
+%\vspace{1cm}
+%\vfill{}
+%\hrulefill
+
+%\begin{center}
+%{\scriptsize  Last updated: \today\- •\- }
+% ---- PLEASE LEAVE THIS BACKLINK FOR ATTRIBUTION AS PER CC-LICENSE
+%Typeset in \href{http://nitens.org/taraborelli/cvtex}{
+%\fontspec{Times New Roman}\XeTeX }\\
+% ---- FILL IN THE FULL URL TO YOUR CV HERE
+%\href{http://nitens.org/taraborelli/cvtex}{http://nitens.org/taraborelli/cvtex}}
+%\end{center}
+
+\end{document}

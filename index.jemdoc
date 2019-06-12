@@ -1,0 +1,116 @@
+# jemdoc: menu{MENU}{index.html}
+# jemdoc: addcss{travis.css}
+# jemdoc: analytics{UA-139974981-1}
+# jdocm -c mysite.conf index
+# The first line of this file is a special command that tells jemdoc which menu
+# entry in the file named MENU to associate this page with
+= Travis E. Gibson
+
+~~~
+{}{img_left}{figures/travis.jpg}{Travis Gibson, Travis E. Gibson, Travis Eli Gibson}{360px}{}{}
+[index.html *Travis E. Gibson*] \n
+Principle Investigator,
+Computational Pathology \n
+Brigham and Women's Hospital & Harvard Medical School \n
+tegibson\*bwh_harvard_edu \n
+60 Fenwood Road, Room 8002D \n Boston MA 02115 \n
+
+Senior Administrative Assistant \n
+Terri Mellen (tmellen\*bwh_harvard_edu) \n
+
+Email map(\*=@, _=.)
+
+~~~
+
+~~~
+*News* \n
+- The lab is now officially open
+- Postdoctoral Fellow position announcement \[[fellow_position.html html], [jobs/fellow_position.pdf pdf]\]
+- Research Associate announcement \[[RA_position.html html], [jobs/RA_position.pdf pdf]\]
+~~~
+
+== Education
+PhD, Massachusetts Institute of Technology \n
+MS, Massachusetts Institute of Technology \n
+BS, Georgia Institute of Technology
+
+== Research and Current Projects
+We leverage tools from machine learning and control to understand biological systems. Current and future projects:
+- Statistical learning applied to microbial dynamics (Bayesian nonparametrics, layered latent state-space models) \n
+- Genetically engineering and controlling a microbial consortia \n
+- Theoretical foundations at the intersection of machine learning and control \n #-- Combining real time adaptive control with Bayesian inference \n -- Analyzing gradient descent from a control theoretic perspective
+- Host-Microbiome interactions
+- Time series metagenomics
+
+== Selected Publications: ([http://scholar.google.com/citations?user=epg4RggAAAAJ&hl=en Google Scholar])
+
+
+- [https://arxiv.org/abs/1903.04666v2 Provably Correct Learning Algorithms in the Presence of Time-Varying Features Using a Variational Perspective] \n
+J.E. Gaudio, *T.E. Gibson*, A.M. Annaswamy, and M.A. Bolender\n
+arXiv, 2019
+
+- [https://www.biorxiv.org/content/10.1101/454579v1 Bacteriophages dynamically modulate the gut microbiota and metabolome] \n
+B.B. Hsu, *T.E. Gibson*, V. Yeliseyev, Q. Liu, L. Bry, P.A. Silver, G.K. Gerber \n
+(accepted), 2019
+
+- [http://proceedings.mlr.press/v80/gibson18a/gibson18a.pdf Robust and Scalable Models of Microbiome Dynamics] \n
+*T.E. Gibson* and G.K. Gerber \n
+International Conference on Machine Learning, 2018 {{ <button name="button" onclick="window.location.href='slides/Gibson_ICML_2018.pdf'">slides</button> <button name="button" onclick="window.location.href='posters/Gibson_ICML_2018.pdf'">poster</button>}}
+
+- [https://arxiv.org/abs/1511.03222 Convergence Properties of Adaptive Systems and the Definition of Exponential Stability] \n
+B.M. Jenkins, A.M. Annaswamy, E. Lavretsky, and *T.E. Gibson*\n
+SIAM Journal on Control and Optimization, 2018
+#{{ <button name="button" onclick="window.location.href='papers/ab_teg_nature_2016_nv.pdf'">News and Views</button> <button name="button" onclick="window.location.href='papers/ab_teg_nature_2016_highlight.pdf'">Nature Physics Highlight</button> }}  # \[[http://arxiv.org/abs/1511.03222 arXiv]\] \[[papers/bj_teg_convergence_arxiv_2015.pdf pdf]\]
+
+- [papers/ab_teg_nature_2016.pdf Universality of human microbial dynamics] \n
+ A. Bashan, *T.E. Gibson*, J. Friedman,	V.J. Carey,	S.T. Weiss, E.L. Hohmann and Y.-Y. Liu \n
+ Nature, 534, 259–262, 2016 {{<br /> <button name="button" onclick="window.location.href='papers/ab_teg_nature_2016_nv.pdf'">Nature News and Views</button> <button name="button" onclick="window.location.href='papers/ab_teg_nature_2016_highlight.pdf'">Nature Physics Highlight</button>}}
+
+# \[[http://dx.doi.org/10.1038/nature18301 doi]\] \[[papers/ab_teg_nature_2016.pdf pdf]\] \[[papers/ab_teg_nature_2016_sup.pdf sup]\]
+#— [papers/ab_teg_nature_2016_nv.pdf News and Views], /Nature/ by K. Faust and J. Raes \n #\[[http://dx.doi.org/10.1038/534182a doi]\] \[[papers/ab_teg_nature_2016_nv.pdf pdf]\] \n
+#— [papers/ab_teg_nature_2016_highlight.pdf Research Highlight], /Nature Physics/ by A. Klopper
+#~~~
+#{}{raw}
+#    <a href="http://www.mit.edu" class="btn btn-secondary btn-sm">Paper</a>
+#    <a href="http://www.mit.edu" class="btn btn-secondary btn-sm">Nature, News and Views</a>
+#    <a href="http://www.mit.edu" class="btn btn-default btn-sm">Nature Physics, Highlight</a>
+#~~~
+#{{<p> <button name="button" onclick="window.location.href='papers/ab_teg_nature_2016_nv.pdf'">News and Views</button> <button name="button" onclick="window.location.href='papers/ab_teg_nature_2016_highlight.pdf'">Nature Physics Highlight</button> </p>}}
+
+#- [papers/gibson_cdc16_asymptotic.pdf Adaptation and Synchronization over a Network: Asymptotic Error Convergence and Pinning] \n
+#*T.E. Gibson*\n
+#Conference on Decision and Control, 2016  {{<button name="button" onclick="window.location.href='slides/cdc16dacsv2.pdf'">slides</button>  }}#   \[[slides/cdc16dacsv2.pdf slides]\]
+
+
+#- [papers/teg_plos_comp_2016.pdf On the Origins and Control of Community Types in the Human Microbiome] \n
+#_Travis E. Gibson_, et al.\n
+#PLoS Computational Biology, 2016, # \[[http://dx.doi.org/10.1371/journal.pcbi.1004688 doi]\] \[[http://arxiv.org/abs/1506.05171 arXiv]\] \[[papers/teg_plos_comp_2016.pdf pdf]\]
+
+#- [papers/teg_tac_2015.pdf Adaptive Output Feedback based on Separation Principle and Closed-loop Reference Models]\n
+#*T.E. Gibson*, Z. Qu, A.M. Annaswamy, E. Lavretsky\n
+#IEEE Transactions on Automatic Control, 2015 # \[[http://dx.doi.org/10.1109/TAC.2015.2405295 doi]\] \[[http://arxiv.org/abs/1410.1944 arXiv]\]   \[[papers/teg_tac_2015.pdf pdf]\]
+
+#== Current Collaborators
+#
+#[/http://meche.mit.edu/people/faculty/aanna@mit.edu Anuradha Annaswamy] \n
+#[/http://www.cds.caltech.edu/archive/people/portal/index8e08.html?un=eugene.lavretsky Eugene Lavretsky] \n
+#[/http://scholar.harvard.edu/yyl/home Yang-Yu Liu]\n
+#[/https://connects.catalyst.harvard.edu/Profiles/display/Person/50689 Scott T. Weiss]\n
+#[/https://hst.mit.edu/user/2553 Georg Gerber]\n
+#[/http://silver.med.harvard.edu/index.php/pasilver/ Pamela Silver]
+
+
+#== jemdoc -- example page
+#[https://jemnz.com/ Jacob Mattingley] ([www@jemnz.com])
+
+#If the first line of the file starts with +\# jemdoc+, special functions like [menu.html menus] will be #used.
+
+#== Example
+#Here are some *text* /features/. I could [http://cvxmod.net/ link somewhere] or insert a raw link to #another page like [download.html]. I could use +monospace+, too.
+
+#I could write special characters like \#, \$ and \+ by just using a backslash (\\) in front of those #characters. Or automatically detect an [www@jemnz.com email address].
+
+#~~~
+#{}{raw}
+#Any text here will be copied straight to the output file without processing.
+#~~~

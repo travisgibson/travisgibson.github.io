@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="travis.css" type="text/css" />
+<title>Workshop on the Intersections of Machine Learning and Parameter Estimation in Control</title>
+</head>
+<body>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-139974981-1");
+    pageTracker._trackPageview();
+} catch(err) {}</script>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Travis E. Gibson</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="cv/gibson_cv.pdf">CV</a></div>
+<div class="menu-category">Other</div>
+<div class="menu-item"><a href="CDC18wshop.html">CDC&nbsp;Workshop</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Workshop on the Intersections of Machine Learning and Parameter Estimation in Control</h1>
+</div>
+<h3><a href="https://cdc2018.ieeecss.org">57th IEEE Conference on Decision and Control <br />  Fontainebleau, Miami Beach, FL  <br /> December 16, 2018</a></h3>
+<p><button name="button" onclick="window.location.href='https://cdc2018.ieeecss.org/registration.php'">Registration Link</button>  
+</p>
+<h3>Organizers</h3>
+<ul>
+<li><p><a href="http://www.mit.edu/~tgibson">Travis E. Gibson</a> <br /> Harvard Medical School <br /> tgibson@mit.edu</p>
+</li>
+<li><p><a href="https://jegaudio.mit.edu/joseph-e-gaudio-phd-student">Joseph E. Gaudio</a> <br /> MIT <br />  jegaudio@mit.edu</p>
+</li>
+<li><p><a href="http://meche.mit.edu/people/faculty/aanna%40mit.edu">Anuradha M. Annaswamy</a>  <br /> MIT <br />  aanna@mit.edu</p>
+</li>
+</ul>
+<h3>Abstract</h3>
+<p>The focus of this workshop is the analytical foundations of Machine Learning (ML) algorithms and their intersection with parameter estimation in control. By machine learning we mean the use of statistical techniques to enable computer systems to &ldquo;learn&rdquo; using data, typically using offline training methods. Starting from a functional approximation perspective, this learning corresponds to iterative adjustments of parameters of the approximation function, frequently based on a gradient descent approach, with the adjustments carried out so as to minimize an underlying cost function. Control systems, on the other hand, focus on methods for automated regulation and tracking in engineering systems, with guidelines for providing guarantees of stability, robustness and convergence in the presence of various uncertainties. Off-line and on-line learning of the underlying control parameters have been analyzed extensively, over the past four to five decades, in sub-disciplines in control such as system identification and adaptive control. It is in these subdisciplines whereby parameter estimation occurs, either implicitly or explicitly, and thus an obvious intersection with ML arises. In fact, when one writes down the dynamics of Stochastic Gradient Descent (SGD), the control gain update law in adaptive control, or the MAP parameter estimate in regression (Bayesian or otherwise), the three sets of equations are basically identical in structure. Interesting and rather subtle differences do exist however. For instance, normalization has always been explicit in adaptive control and regression, but not in SGD. SGD, on the other hand, has been studied within the context of momentum, leading to a class of accelerated methods, which are ideas not present in the adaptive control literature. Another area of intersection between the two fields arises when one treats SGD explicitly as a dynamical system and leverages the broad array of tools in control theory to study its robustness properties.
+The goal of this workshop is to understand the aforementioned intersections between ML and control systems. The three major thrusts of this workshop are :</p>
+<ol>
+<li><p>Methods for combining the analytical rigor in control systems with the representational power of ML algorithms.</p>
+</li>
+<li><p>Parameter update laws combining features and analysis from control and accelerated methods.</p>
+</li>
+<li><p>Characterizing convergence in deep learning.</p>
+</li>
+</ol>
+<p>The speakers in this workshop were selected so as to present a cohesive story of the state of the art in training machine learning models and parameter convergence in dynamical systems.</p>
+<h3>Schedule</h3>
+<p>9:00am – 9:30am	<b>Introduction</b> <br /></p>
+<ul>
+<li><p>Joseph E. Gaudio</p>
+</li>
+</ul>
+<p>9:30am – 10:15am	<a href="http://people.eecs.berkeley.edu/~wibisono/"><b>Andre Wibisono</b></a> | Georgia Tech <br /></p>
+<ul>
+<li><p>A variational perspective on accelerated methods in optimization</p>
+</li>
+</ul>
+<p>10:15am – 10:30am	<b>Coffee Break</b></p>
+<p>10:30am – 11:15am	<a href="https://www.stat.berkeley.edu/~ashia/"><b>Ashia Wilson</b></a> | Microsoft Research</p>
+<ul>
+<li><p>Dynamical systems perspective toward gradient based optimization</p>
+</li>
+</ul>
+<p>11:15am – 12:00pm	<a href="http://meche.mit.edu/people/faculty/aanna%40mit.edu"><b>Anuradha Annaswamy</b></a> | MIT</p>
+<ul>
+<li><p>The Use of Neural Networks for Parameter Estimation and Control in Dynamic Systems</p>
+</li>
+</ul>
+<p>12:00pm –1:30pm	<b>Lunch</b></p>
+<p>1:30pm – 2:15pm	<a href="https://laurentlessard.com/"><b>Laurent Lessard</b></a> | University of Wisconsin-Madison</p>
+<ul>
+<li><p>Robust control approach to algorithm analysis and design</p>
+</li>
+</ul>
+<p>2:15pm – 3:00pm	<a href="http://cyrilzhang.com/"><b>Cyril Zhang</b></a> | Princeton</p>
+<ul>
+<li><p>Spectral Filtering for General Linear Dynamical Systems</p>
+</li>
+</ul>
+<p>3:00pm – 3:15pm	<b>Coffee Break</b></p>
+<p>3:15pm – 4:00pm	<a href="https://mentis.uta.edu/explore/profile/dr-frank-lewis"><b>Frank Lewis</b></a> | University of Texas at Arlington</p>
+<ul>
+<li><p>Unified Reinforcement Learning/Parameter Estimation Structures for Real-Time Optimal Control and Differential Graphical Games</p>
+</li>
+</ul>
+<p>4:00pm – 4:45pm	<a href="http://www.mit.edu/~tgibson"><b>Travis Gibson</b></a> | Harvard Medical School</p>
+<ul>
+<li><p>Topics on gradient descent for deep linear networks</p>
+</li>
+</ul>
+<p>4:45pm – 5:30pm	<b>Panel Discussion</b></p>
+<ul>
+<li><p>Moderators: Travis E. Gibson | Joseph E. Gaudio</p>
+</li>
+</ul>
+<div id="footer">
+<div id="footer-text">
+Page generated 2019-05-22 16:25:24 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

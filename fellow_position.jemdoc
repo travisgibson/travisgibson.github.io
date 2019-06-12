@@ -1,0 +1,29 @@
+# jemdoc: menu{MENU}{}
+# jemdoc: addcss{travis.css}
+# jemdoc: analytics{UA-139974981-1}
+# jdocm -c mysite.conf index
+# The first line of this file is a special command that tells jemdoc which menu
+# entry in the file named MENU to associate this page with
+= Postdoctoral Fellow - Machine Learning \n Gibson Lab at Harvard Medical School
+
+Postdoctoral fellow position available immediately to work on problems at the intersection of machine learning, control, and the microbiome. The position will give you the opportunity to work on real, clinically relevant, biomedical problems as well as develop advanced machine learning methods. This could be a good fit for someone with a strong machine learning background who wants to get domain-specific research experience, or someone with a strong mathematical background who wants to get more machine learning experience.
+
+The Gibson Lab \[[http://travisgibson.github.io {{http://travisgibson.github.io}}]\] at Brigham and Women's Hospital and Harvard Medical School studies biological systems by leveraging tools from machine learning and control theory. Dr. Gibson’s recent work has focused on modeling microbial dynamics and developing robust statistical inference algorithms that scale with the large amounts of data one encounters with time series microbial (metagenomic) studies. Recent theoretical work has analyzed sufficient richness for parameter convergence in online learning algorithms and robustness properties for gradient descent. These are some of the upcoming projects in the lab. Research projects will be designed around the candidate’s capabilities and future career objectives:
+- Host-microbiome interactions (in collaboration with the [http://waltlab.bwh.harvard.edu/ Walt Lab])
+- Time-series metagenomics
+- Engineering microbial consortia with control theory principles
+- Provably robust gradient descent algorithms for optimization and machine learning
+
+The lab is located in the Division of Computational Pathology at the Brigham and Women’s Hospital (BWH), a Harvard Medical School (HMS) affiliated teaching hospital, which is adjacent to the HMS main quad and is the second largest non-university recipient of NIH research funding. The broad mandate of the Division of Computational Pathology is to develop and apply advanced computational methods for furthering the understanding, diagnosis and treatment of human diseases. The Division is situated within the BWH Department of Pathology, which houses over 40\+ established investigators, 50\+ postdoctoral research fellows, and 100+ research support staff. In addition, BWH is part of the greater Longwood Medical Area in Boston, a rich, stimulating environment conducive to intellectual development and research collaborations, which includes HMS, Harvard School of Public Health, Boston Children’s Hospital and the Dana Farber Cancer Institute.
+
+Qualifications:
+- PhD in computer science, applied mathematics, statistics, or other quantitative discipline
+- Strong mathematical background with track record developing novel methodologies
+- Solid programming skills, preferably in Python; this isn’t a software engineering job, but you will need to be able to develop efficient implementations and apply your work to real biomedical data
+- Curiosity about biology/medical applications and some experience modeling biological systems; microbiome experience desirable, but not required
+
+Send cover letter and CV to [tegibson@bwh.harvard.edu {{tegibson@bwh.harvard.edu}}]. Applications without a cover letter specifically responsive to this posting will not be considered.
+
+We are an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability status, protected veteran status, gender identity, sexual orientation, pregnancy and pregnancy-related conditions or any other characteristic protected by law.
+
+[jobs/fellow_position.pdf PDF of this announcement]

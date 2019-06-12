@@ -1,0 +1,211 @@
+# jemdoc: menu{MENU}{publications.html}
+# jemdoc: addcss{travis.css}
+# jemdoc: analytics{UA-139974981-1}
+= Publications
+
+
+== Papers
+*2019*
+- [https://www.biorxiv.org/content/10.1101/454579v1 Bacteriophages dynamically modulate the gut microbiota and metabolome] \n
+B.B. Hsu, *T.E. Gibson*, V. Yeliseyev, Q. Liu, L. Bry, P.A. Silver, G.K. Gerber \n
+(in-press), 2019
+
+- [https://arxiv.org/abs/1903.04666 Provably Correct Learning Algorithms in the Presence of Time-Varying Features Using a Variational Perspective] \n
+J.E. Gaudio, *T.E. Gibson*, A.M. Annaswamy, and M.A. Bolender \n
+arXiv, 2019
+
+- [https://arxiv.org/abs/1904.05856 Connections Between Adaptive Control and Optimization in Machine Learning] \n
+J.E. Gaudio, *T.E. Gibson*, A.M. Annaswamy, M.A. Bolender, and  E.Lavretsky \n
+arXiv, 2019
+
+
+*2018*
+- [http://proceedings.mlr.press/v80/gibson18a/gibson18a.pdf Robust and Scalable Models of Microbiome Dynamics] \n
+*T.E. Gibson* and G.K. Gerber \n
+International Conference on Machine Learning (ICML), 2018
+
+- [https://www.biorxiv.org/content/10.1101/426171v1 Inducible Cooperation in a Synthetic Gut Bacterial Consortium Introduces Population Balance and Stability] \n
+M.Ziesack, *T.E. Gibson*, ... G.K. Gerber \n
+biRxiv, 2018
+
+- [https://drive.google.com/file/d/1jmMrlgIHYQgYSxiVK5pbhgtmSNd_Ii4f/view A multi-level Bayesian nonparametric model of longitudinal responses of the human microbiota to dietary interventions] \n
+ R. Creswell, M.K. Gibson, *T.E. Gibson*, J.W. Leff, and G.K. Gerber \n
+ Workshop on Computational Biology at ICML, 2018
+
+- [https://arxiv.org/abs/1511.03222 Convergence Properties of Adaptive Systems and the Definition of Exponential Stability] \n
+B.M. Jenkins, A.M. Annaswamy, E. Lavretsky, and *T.E. Gibson*\n
+SIAM Journal on Control and Optimization, 2018
+
+
+
+*2017*
+- [papers/nips_2017_MLCB_gibson_abstract_web.pdf Robust and Scalable Models of Microbiome Dynamics for Bacteriotherapy Design] \n
+*T.E. Gibson* and G.K. Gerber \n
+Workshop on Machine Learning in Computational Biology at NIPS, 2017
+\[[slides/nips_2017_MLCB_gibson_beamer.pdf slides]\]
+
+- [https://doi.org/10.1101/176941 On the Stability Landscape of the Human Gut Microbiome: Implications for Microbiome-based Therapies] \n
+*T.E. Gibson* et al. \n
+bioRxiv, 2017
+
+- [papers/cao_bioessays_2017.pdf Inferring human microbial dynamics from temporal metagenomics data: Pitfalls and lessons] \n
+H.-T. Cao,  *T.E. Gibson*, A. Bashan, and Y.-Y. Liu \n
+Bioessays, 2017
+
+*2016*
+
+- [papers/ab_teg_nature_2016.pdf Universality of human microbial dynamics] \n
+ A. Bashan, *T.E. Gibson*, J. Friedman,	V.J. Carey,	S.T. Weiss, E.L. Hohmann and Y.-Y. Liu \n
+ Nature, 2016 \n # \[[http://dx.doi.org/10.1038/nature18301 doi]\] \[[papers/ab_teg_nature_2016.pdf pdf]\] \[[papers/ab_teg_nature_2016_sup.pdf sup]\] \n
+\[[papers/ab_teg_nature_2016_nv.pdf News and Views Nature]\]  \[[papers/ab_teg_nature_2016_highlight.pdf Research Highlight Nature Physics]\]
+
+
+- [papers/PNAS_2016_Control.pdf Controllability analysis of the directed protein-protein interaction network identifies human disease genes] \n
+V. Arunachalam, *T.E. Gibson*, et al. \n
+Proceedings of the National Academy of Sciences, 2016
+
+
+- [papers/gibson_cdc16_asymptotic.pdf Adaptation and Synchronization over a Network: Asymptotic Error Convergence and Pinning] \n
+*T.E. Gibson*\n
+Conference on Decision and Control, 2016  \[[slides/cdc16dacsv2.pdf slides]\]
+
+- [papers/gibson_cdc16_stabilization.pdf Adaptation and Synchronization over a Network: Stabilization without a Reference Model] \n
+*T.E. Gibson*\n
+Conference on Decision and Control, 2016  \[[slides/cdc16learning_public.pdf slides]\]
+
+- [papers/cao_cdc_2016.pdf Impacts of network topology on the performance of a Distributed Algorithm Solving Linear Equations] \n
+H.-T. Cao,  *T.E. Gibson*, S. Mou, and Y.-Y. Liu \n
+Conference on Decision and Control, 2016
+
+- [papers/gibson_acc_16_submit_2.pdf Opportunities for Systems and Control in the Human Microbiome] \n
+*T.E. Gibson*\n
+American Control Conference, 2016
+
+- [papers/teg_plos_comp_2016.pdf On the Origins and Control of Community Types in the Human Microbiome] \n
+*T.E. Gibson*, et al.\n
+PLoS Computational Biology, 2016 # \[[http://dx.doi.org/10.1371/journal.pcbi.1004688 doi]\] \[[http://arxiv.org/abs/1506.05171 arXiv]\] \[[papers/teg_plos_comp_2016.pdf pdf]\]
+\[[papers/Gibson_CompBio_2016_Supp.pdf supplement]\]
+
+- [papers/mcgeachie_scireports_2016.pdf Longitudinal Prediction of the Infant Gut Microbiome with Dynamic Bayesian Networks] \n
+M.J. McGeachie et al. \n
+Scientific Reports, 2016
+
+*2015*
+
+- [papers/teg_tac_2015.pdf Adaptive Output Feedback Based on Closed-Loop Reference Models]\n
+*T.E. Gibson*, Z. Qu, A.M. Annaswamy, E. Lavretsky\n
+IEEE Transactions on Automatic Control, 2015 # \[[http://dx.doi.org/10.1109/TAC.2015.2405295 doi]\] \[[http://arxiv.org/abs/1410.1944 arXiv]\]   \[[papers/teg_tac_2015.pdf pdf]\]
+
+- Robust and Adaptive Control Technologies for Flight Critical Systems \n
+*T.E. Gibson* and E. Lavretsky \n
+17th Yale Workshop on Adaptive and Learning Systems, New Haven Connecticut, 2015
+
+- Learning and Consensus in Adaptive and Networked Systems \n
+*T.E. Gibson* and A.M. Annaswamy \n
+17th Yale Workshop on Adaptive and Learning Systems, New Haven Connecticut, 2015
+
+- [papers/gibson_acc_2015.pdf Adaptive Control and the Definition of Exponential Stability] \n
+*T.E. Gibson* and A.M. Annaswamy \n
+American Control Conference, 2015 \[[slides/acc15presentation_final.pdf slides]\]
+
+- [https://arxiv.org/abs/1512.06026 Sign Stability via Root Locus Analysis] \n
+*T.E. Gibson* \n
+arXiv, 2015
+
+*2013*
+
+- [papers/gibson_access_2013.pdf On Adaptive Control with Closed-loop Reference Models: Transients, Oscillations, and Peaking] \n
+*T.E. Gibson*, A.M. Annaswamy, and E. Lavretsky \n
+IEEE ACCESS, 2013
+
+- Practical Adaptive Control \n
+A.M. Annaswamy, *T.E. Gibson* H.S. Hussain and E. Lavretsky \n
+16th Yale Workshop on Adaptive and Learning Systems, 2013
+
+- [papers/gibson_ifac_2013.pdf Closed-Loop Reference Models in Adaptive Control: Composite Control and Observer Feedback] \n
+*T.E. Gibson* A.M. Annaswamy, and E. Lavretsky \n
+11th IFAC International Workshop on Adaptation and Learning in Control and Signal Processing, 2013
+
+- [papers/jenkins_ifac_2013.pdf Uniform Asymptotic Stability and Slow Convergence in Adaptive Systems] \n
+B.M. Jenkins, *T.E. Gibson*, A.M. Annaswamy, and E. Lavretsky \n
+11th IFAC International Workshop on Adaptation and Learning in Control and Signal Processing, 2013
+
+- [papers/gibson_ecc_2013.pdf Closed-loop reference models for output-feedback adaptive systems] \n
+*T.E. Gibson*, A.M. Annaswamy, and E. Lavretsky \n
+European Control Conference, 2013
+
+- [papers/gibson_acc_2013.pdf Adaptive systems with closed-loop reference-models, part I: Transient performance] \n
+*T.E. Gibson*, A.M. Annaswamy, and E. Lavretsky \n
+American Control Conference, 2013
+
+- Accuracy, Smoothness, and Speed in Adaptive Systems with Closed-loop Reference Models \n
+B.M. Jenkins, *T.E. Gibson*, A.M. Annaswamy, and E. Lavretsky \n
+AIAA Guidance Navigation and Control Conference, 2013
+
+*2012*
+- Recent Results in Robust Adaptive Flight Control, \n
+A.M. Annaswamy, E. Lavretsky, Z.T. Dydek, *T.E. Gibson* and M. Matsutani, \n
+International Journal of Adaptive Control and Signal Processing, 2012
+
+- [https://arxiv.org/abs/1201.4897 Adaptive Systems with Closed-loop Reference Models: Stability, Robustness and Performance] \n
+*T.E. Gibson*, A.M. Annaswamy, and E. Lavretsky \n
+arXiv, 2012
+
+- Improved Transient Response in Adaptive Control Using Projection Algorithms and Closed Loop Reference Models \n
+*T.E. Gibson*, A.M. Annaswamy, and E. Lavretsky \n
+AIAA Guidance Navigation and Control Conference, 2012
+
+*2011*
+- [https://arxiv.org/abs/1112.4232 Projection Operator in Adaptive Systems] \n
+E. Lavretsky, *T.E. Gibson* and A.M. Annaswamy,  \n
+arXiv, 2011
+
+- Modeling for Control of Very Flexible Aircraft\n
+*T.E. Gibson*, A.M. Annaswamy, and E. Lavretsky \n
+AIAA Guidance Navigation and Control Conference, 2011
+
+- Simulation and Adaptive Control of a High Agility Model Airplane in the Presence of Severe Structural Damage and Failures,\n
+S. Baur, *T. Gibson*, A. Annaswamy, L. Hoecht, and F. Holzapfel \n
+AIAA Guidance, Navigation and Controls Conference, 2011
+
+- Trustable Autonomous Systems Using Adaptive Control \n
+A.M. Annnaswamy, M. Matsutani, *T.E. Gibson* and E. Lavretsky \n
+15th Yale Workshop on Adaptive and Learning Systems, 2011
+
+- Adaptive Control of a High Agility Model Airplane in the Presence of Severe Structural Damage and Failure \n
+S. Baur, *T. Gibson*, A. Annaswamy, L. Hoecht, T. Bierling and F. Holzapfel \n
+Council of European Aerospace Societies EuroGNC, 2011
+
+
+*2008-2010*
+- Internal Algorithm Monitor for Adaptive Systems \n
+*T.E. Gibson*, M. Matsutani, L.G. Crespo and A.M. Annaswamy \n
+AIAA Infotech Aerospace Conference, 2010
+
+- Design and Verification of an Adaptive Controller for the Generic Transport Model \n
+L.G. Crespo, M. Matsutani, J. Jang, *T.E. Gibson* and A.M. Annaswamy \n
+AIAA Guidance Navigation and Control Conference, 2009.
+
+- An Adaptive Control Technology for Safety of a GTM-like Aircraft \n
+M. Matsutani, *T.E. Gibson*, J. Jang, L. G. Crespo, and A.M. Annaswamy \n
+American Control Conference, 2009
+
+- Adaptive control of hypersonic vehicles in the presence of modeling uncertainties \n
+*T.E. Gibson*, L.G. Crespo, and A.M. Annaswamy \n
+American Control Conference, 2009
+
+- Fretting on the Cubic Face of a Single-Crystal Ni-base Superalloy at Room Temperature \n
+X. Huang, *T.E. Gibson*, M. Zhang, and R.W. Neu, \n
+Tribology International, 2009
+
+- Adaptive control of hypersonic vehicles in the presence of thrust and actuator uncertainties \n
+*T.E. Gibson* and A.M. Annaswamy \n
+ AIAA Guidance Navigation and Control Conference, 2008
+
+== Thesis
+- [papers/phd.pdf Closed-loop Reference Model Adaptive Control: with Application to Very Flexible Aircraft] \n
+*T.E. Gibson* \n
+PhD Thesis, Massachusetts Institute of Technology, 2014
+
+
+#== Talks and Other

@@ -1,0 +1,48 @@
+#layout-menu {
+	width: 150px;
+}
+
+dl {
+    margin-left: 2em;
+}
+
+dl a {
+	color: #021b6d;
+}
+dl {
+	color: #222222;
+}
+
+
+
+
+.align-right    { float: right; margin: 0px 0px 20px 20px; }
+.align-center    { float: center; }
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.centeredImage
+    {
+    text-align:center;
+    display:block;
+    }
+
+.centeredI
+    {
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+    }
+
+
+.align-left     { float: left;
+				  margin: 0 20px 0px 0px; padding: 0px;}
+
+
+#twitter-widget-0 {
+					      width: 700px !important;
+					    }
