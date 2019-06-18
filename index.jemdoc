@@ -47,11 +47,11 @@ We leverage tools from machine learning and control to understand biological sys
 
 - [https://arxiv.org/abs/1903.04666v2 Provably Correct Learning Algorithms in the Presence of Time-Varying Features Using a Variational Perspective] \n
 J.E. Gaudio, *T.E. Gibson*, A.M. Annaswamy, and M.A. Bolender\n
-arXiv, 2019
+arXiv, 2019 {{ <button name="button" onclick="window.location.href='https://realworld-sdm.github.io/#papers'">Real-world Sequential Decision Making Workshop at ICML, 2019</button>}}
 
-- [https://www.biorxiv.org/content/10.1101/454579v1 Bacteriophages dynamically modulate the gut microbiota and metabolome] \n
+- [https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(19)30246-X Dynamic Modulation of the Gut Microbiota and Metabolome by Bacteriophages in a Mouse Model] \n
 B.B. Hsu, *T.E. Gibson*, V. Yeliseyev, Q. Liu, L. Bry, P.A. Silver, G.K. Gerber \n
-(accepted), 2019
+Cell Host and Microbiome, 2019
 
 - [http://proceedings.mlr.press/v80/gibson18a/gibson18a.pdf Robust and Scalable Models of Microbiome Dynamics] \n
 *T.E. Gibson* and G.K. Gerber \n
