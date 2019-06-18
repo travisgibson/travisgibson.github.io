@@ -51,7 +51,7 @@ arXiv, 2019 {{ <button name="button" onclick="window.location.href='https://real
 
 - [https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(19)30246-X Dynamic Modulation of the Gut Microbiota and Metabolome by Bacteriophages in a Mouse Model] \n
 B.B. Hsu, *T.E. Gibson*, V. Yeliseyev, Q. Liu, L. Bry, P.A. Silver, G.K. Gerber \n
-Cell Host and Microbiome, 2019
+Cell Host and Microbe, 2019 {{<br /> <button name="button" onclick="window.location.href='https://doi.org/10.1016/j.chom.2019.05.010'">Cell Host and Microbe, Preview</button>}}
 
 - [http://proceedings.mlr.press/v80/gibson18a/gibson18a.pdf Robust and Scalable Models of Microbiome Dynamics] \n
 *T.E. Gibson* and G.K. Gerber \n
