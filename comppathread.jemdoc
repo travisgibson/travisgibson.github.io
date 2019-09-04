@@ -1,0 +1,32 @@
+# jemdoc: menu{MENU}{index.html}
+# jemdoc: addcss{travis.css}
+# jemdoc: analytics{UA-139974981-1}
+# jdocm -c mysite.conf index
+# The first line of this file is a special command that tells jemdoc which menu
+# entry in the file named MENU to associate this page with
+= Computational Pathology Reading Group
+
+
+== Fall, 2019 (with more to be scheduled)
+#=== Future Presentations (with more to be added)
+- November 13, 3:30-4:30 PM\n
+Location: Hale BTM, 60 Fenwood Road, Room 8002 \n
+Paper: TBD \n
+Presenter Gibson Lab member, TBD  \n
+
+- October 16, 3:30-4:30 PM\n
+Location: Hale BTM, 60 Fenwood Road, Room 8002 \n
+Paper: TBD \n
+Presenter David Kaplan (dekaplan at bwh dot harvard dot edu) \n
+
+== Summer 2019
+
+- August 31, 3:30-4:30 PM\n
+Location: Hale BTM, 60 Fenwood Road, Room 8002 \n
+Paper: [http://papers.nips.cc/paper/2783-gaussian-process-dynamical-models.pdf Wang et al., Guassian Process Dynamical Models, NeurIPS 2006]  \n
+Presenter: Jen Dawkins (jdawk at mit dot edu) \n
+
+- June 19, 3:30-4:30 PM \n
+Location: Hale BTM, 60 Fenwood Road, Room 8002 \n
+Paper: [http://proceedings.mlr.press/v80/ilse18a/ilse18a.pdf Ilse et al., Attention-based Deep Multiple Instance Learning, ICML, 2018]  \n
+Presenter: Max Lu (mlu21 at jhu dot edu) \n
