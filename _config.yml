@@ -2,7 +2,7 @@ title: Travis E. Gibson
 logo: assets/img/gibson_head_600.png
 description: Personal Website
 show_downloads: false
-google_analytics:
+google_analytics: G-3E819FRS1J
 #theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
